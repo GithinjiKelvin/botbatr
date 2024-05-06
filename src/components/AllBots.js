@@ -1,12 +1,12 @@
 import React from 'react'
 import BotCard from './BotCard'
 
-function AllBots({bots, handleClick}) {
+function AllBots({bots, handleClick, discharge}) {
 
   return (
     <div className='grid'>
         {bots.map((bot) => (
-        <BotCard bot={bot} key={bot.id} handleClick={handleClick}/>))}
+        <BotCard bot={bot} key={bot.id} handleClick={handleClick} discharge={discharge}/>))}
 
     </div>
   )
