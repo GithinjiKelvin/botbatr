@@ -28,17 +28,18 @@ function BotCard({bot, handleClick, discharge}) {
             </div>
             <div className='extra-content'>
                 <span>
-                    <i className='icon heartbeat'/>
+                    
+                    <i class="fa-regular fa-heart"></i>
                     {bot.health}
                 </span>
 
                 <span>
-                    <i className='icon lightning'/>
+                <i class="fa-solid fa-bolt-lightning"></i>
                     {bot.damage}
                 </span>
 
                 <span>
-                    <i className='icon shield'/>
+                <i class="fa-regular fa-bookmark"></i>
                     {bot.armor}
                 </span>
                 <span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import BotCard from './BotCard'
+import "./Bots.css"
 
 function AllBots({bots, handleClick, discharge}) {
 
